@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import com.magalhaes_andre.persons.dao.PersonDAO;
 import com.magalhaes_andre.persons.model.Person;
 
+@RestController
 @RequestMapping("/api")
 public class Persons {
 	
